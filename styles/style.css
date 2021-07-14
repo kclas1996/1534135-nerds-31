@@ -65,7 +65,9 @@ img {
 .user-navigation a:focus {
   background-color: white;
 }
-
+.features {
+  background-color: #EEEEEE;
+}
 .slides {
   list-style: none;
 }
