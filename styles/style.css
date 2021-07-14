@@ -15,6 +15,10 @@
   linear-gradient(0deg, #FFFFFF, #FFFFFF);
 } */
 
+.page {
+  height: 100%;
+}
+
 .page-body {
   margin: 0;
 
@@ -35,6 +39,12 @@
   align-content: start;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
@@ -43,9 +53,89 @@ img {
   max-width: 100%;
   height: auto;
 }
-.page {
-  height: 100%;
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border: 1px solid red;
 }
+
+/* *** */
+
+
+/*
+.page-body {}
+
+.main-header {}
+
+.main-navigation {}
+.main-header-logo {}
+.site-navigation {}
+.user-navigation {}
+.user-navigation .basket {}
+ */
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation ul {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.main-navigation li {
+  padding-left: 0;
+}
+
+.site-navigation a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-navigation a {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.main-navigation a:hover {
+  color: #FB565A;
+}
+
+.main-navigation a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.main-navigation .current {
+  position: relative;
+}
+
+/* .main-navigation .current::after {
+  content: "";
+  display: block;
+  height: 5px;
+  bottom: -10px;
+  background-color: red;
+} */
+
+
+/*
+
+
 
 .main-header {
   margin-bottom: 70px;
@@ -60,9 +150,6 @@ img {
 
 .main-navigation {
   display: grid;
-  font-size: 16px;
-  line-height: 30px;
-  color: basic-black;
   background-color: transparent;
 }
 
@@ -129,4 +216,4 @@ color:red;
 .contacts {
 
 
-}
+} */
