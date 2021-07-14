@@ -66,6 +66,13 @@ img {
   background-color: white;
 }
 
+.slides {
+  list-style: none;
+}
+
+.button {
+color:red;
+}
 .services-list {
   list-style: none;
 }
